@@ -8,7 +8,8 @@ function getEmployeeByName(employeeName) {
   const allEmployees = data.employees;
   return allEmployees.find(
     (employee) =>
-      employee.firstName === employeeName || employee.lastName === employeeName);
+      employee.firstName === employeeName || employee.lastName === employeeName
+  );
 }
 
 module.exports = getEmployeeByName;
